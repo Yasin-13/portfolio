@@ -6,10 +6,10 @@ const Navbar = () => {
     <nav className="fixed top-0 right-0 w-full p-4 ">
       <div className="flex justify-end space-x-6">
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/mohamed-yasin-aaa502260/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-blue-500"
+          className="text-black hover:text-blue-500"
         >
           <FaLinkedin size={34} className="sm:size-30" />
         </a>
@@ -17,7 +17,7 @@ const Navbar = () => {
           href="https://github.com/your-profile"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-400"
+          className="text-black hover:text-gray-400"
         >
           <FaGithub size={34} className="sm:size-30" />
         </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
           href="https://www.instagram.com/your-profile"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-pink-500"
+          className="text-black hover:text-pink-500"
         >
           <FaInstagram size={34} className="sm:size-30" />
         </a>
