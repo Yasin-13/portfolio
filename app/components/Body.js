@@ -4,7 +4,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { FaGithub } from "react-icons/fa"; // Import React Icon for Github
 import code from "@/public/11.jpeg";
-import Contact from "./contact";
+import Contact from "./Contact";
 const projectsData = [
   {
     title: "CCTv crime",
