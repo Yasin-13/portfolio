@@ -11,6 +11,16 @@ module.exports = {
         title:["Honk","sans-serif"],
 
       },
+
+      keyframes: {
+        scrollSkills: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        scrollSkills: 'scrollSkills 10s linear infinite',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

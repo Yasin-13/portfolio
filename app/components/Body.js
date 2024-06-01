@@ -5,23 +5,25 @@ import { Typewriter } from "react-simple-typewriter";
 import { FaGithub } from "react-icons/fa"; // Import React Icon for Github
 import code from "@/public/11.jpeg";
 import Contact from "./Contact";
+import Skills from "./Skills";
+
 const projectsData = [
   {
     title: "CCTv crime",
-    githubLink: "https://github.com"
+    githubLink: "https://github.com",
   },
   {
     title: "Project 2",
-    githubLink: "https://github.com"
+    githubLink: "https://github.com",
   },
   {
     title: "Project 3",
-    githubLink: "https://github.com"
+    githubLink: "https://github.com",
   },
   {
     title: "Project 4",
-    githubLink: "https://github.com"
-  }
+    githubLink: "https://github.com",
+  },
 ];
 
 const Body = () => {
@@ -38,7 +40,7 @@ const Body = () => {
   return (
     <div className="overflow-x-hidden">
       <div className="h-screen w-screen text-center font-title text-6xl justify-center mt-60 mx-auto">
-        <Typewriter 
+        <Typewriter
           words={["MOHAMED YASIN"]}
           loop={1} // Set loop to 1 to type the text only once
           cursor
@@ -81,9 +83,9 @@ const Body = () => {
           </button>
         </div>
       </div>
-      
+
       <div id="projects" className="h-screen w-screen flex justify-center items-center">
-        <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-5 px-11">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 px-11">
           {projectsData.map((project, index) => (
             <div
               key={index}
@@ -110,15 +112,12 @@ const Body = () => {
         </div>
       </div>
 
-
       <div id="skills" className="h-screen w-screen flex justify-center items-center">
-        skills hai bhai
+        <Skills />
       </div>
       <div id="contact" className="h-screen w-screen flex justify-center items-center">
         <Contact />
-        </div>
-
-
+      </div>
     </div>
   );
 };

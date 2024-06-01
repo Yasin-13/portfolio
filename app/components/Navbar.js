@@ -14,7 +14,7 @@ const Navbar = () => {
           <FaLinkedin size={34} className="sm:size-30" />
         </a>
         <a
-          href="https://github.com/your-profile"
+          href="https://github.com/Yasin-13"
           target="_blank"
           rel="noopener noreferrer"
           className="text-black hover:text-gray-400"
@@ -22,7 +22,7 @@ const Navbar = () => {
           <FaGithub size={34} className="sm:size-30" />
         </a>
         <a
-          href="https://www.instagram.com/your-profile"
+          href="https://www.instagram.com/yasin_md20"
           target="_blank"
           rel="noopener noreferrer"
           className="text-black hover:text-pink-500"
