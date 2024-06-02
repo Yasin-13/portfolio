@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-<div class="bg-white ">  
+<div class="bg-gradient-to-r from-slate-900 to-slate-700 ">  
 <Navbar />
       <Body />
       <Footer />

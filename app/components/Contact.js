@@ -5,11 +5,11 @@ const Contact = () => {
     <div id="contact" className="h-screen w-screen flex justify-center items-center">
         
 
-<section className="bg-white">
+<section className="">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
-        <p className="max-w-xl font-bold text-3xl text-left ">
+        <p className="max-w-xl font-bold text-3xl text-white text-left ">
           Looking Forward to connect.
           <p1 className='text-pink-600'>
           connect with me on my social handles
@@ -19,7 +19,7 @@ const Contact = () => {
         
       </div>
 
-      <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+      <div className="rounded-lg  p-8 shadow-lg lg:col-span-3 lg:p-12">
         <form action="#" className="space-y-4">
           <div>
             <label className="sr-only" htmlFor="name">Name</label>

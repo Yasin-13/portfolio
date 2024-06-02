@@ -50,7 +50,7 @@ const Body = () => {
           delaySpeed={1000}
         />
         <div>
-          <p className="text-4xl text-black font-sans font-bold text-center">
+          <p className="text-4xl bg-gradient-to-r from-slate-300 to-slate-500 bg-clip-text text-transparent text-white font-sans font-bold text-center">
             <Typewriter
               words={["Developer/cyber-security enthusiast"]}
               loop={1} // Set loop to 1 to type the text only once
@@ -62,10 +62,10 @@ const Body = () => {
             />
           </p>
         </div>
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 ">
           <button
             onClick={scrollToProjects}
-            className="text-black hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-black transition duration-300"
+            className="text-black  hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-black transition duration-300"
           >
             Projects
           </button>

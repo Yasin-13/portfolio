@@ -10,7 +10,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="flex justify-center items-center h-screen w-screen bg-white">
+    <div className="flex justify-center items-center h-screen w-screen ">
       <div className="max-w-6xl mx-auto py-12">
         <h2 className="text-3xl font-semibold text-center text-gray-800 mb-8">Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
