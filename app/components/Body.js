@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa"; // Import React Icon for Github
 import code from "@/public/11.jpeg";
 import Contact from "./Contact";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 const projectsData = [
   {
@@ -50,7 +51,7 @@ const Body = () => {
           delaySpeed={1000}
         />
         <div>
-          <p className="text-4xl bg-gradient-to-r from-slate-300 to-slate-500 bg-clip-text text-transparent text-white font-sans font-bold text-center">
+          <p className="text-4xl  text-black font-sans font-bold text-center">
             <Typewriter
               words={["Developer/cyber-security enthusiast"]}
               loop={1} // Set loop to 1 to type the text only once
@@ -84,32 +85,12 @@ const Body = () => {
         </div>
       </div>
 
-      <div id="projects" className="h-screen w-screen flex justify-center items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 px-11">
-          {projectsData.map((project, index) => (
-            <div
-              key={index}
-              className="relative group overflow-hidden rounded-lg shadow-lg"
-            >
-              <Image
-                src={code}
-                width={1000}
-                height={1200}
-                alt={project.title}
-                className="w-full h-full object-cover"
-              />
-              <a
-                href={project.githubLink}
-                className="absolute inset-0 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              >
-                <FaGithub className="text-white text-5xl" />
-              </a>
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white">
-                <p className="text-lg font-semibold">{project.title}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+      <div id="projects" className="h-screen  flex justify-center items-center">
+        <Projects />
+      
+      
+
+
       </div>
 
       <div id="skills" className="h-screen w-screen flex justify-center items-center">
