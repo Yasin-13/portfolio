@@ -1,4 +1,15 @@
 import React from 'react';
+import { IoLogoJavascript } from "react-icons/io";
+import { FaPython } from "react-icons/fa";
+import { FaBug } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaNetworkWired } from "react-icons/fa";
+
+
+
+
+
 
 const skills = [
   { name: 'JavaScript', level: 5 },
@@ -10,36 +21,104 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="flex justify-center items-center h-screen w-screen ">
-      <div className="max-w-6xl mx-auto py-12">
-        <h2 className="text-3xl font-semibold text-center text-gray-800 mb-8">Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {skills.map((skill, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-lg shadow-md p-6 flex flex-col justify-center items-center"
-            >
-              <h3 className="text-lg font-semibold text-gray-800 mb-4">{skill.name}</h3>
-              <div className="flex justify-center items-center space-x-2">
-                {[...Array(skill.level)].map((_, i) => (
-                  <div
-                    key={i}
-                    className="w-8 h-4 bg-blue-500 rounded-full"
-                  />
-                ))}
-                {[...Array(5 - skill.level)].map((_, i) => (
-                  <div
-                    key={i}
-                    className="w-8 h-4 bg-gray-300 rounded-full"
-                  />
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
+    <section>
+  <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+    <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
+      <div className="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
+        <h2 className="text-3xl font-bold sm:text-4xl">SKILLS</h2>
+
+        <p className="mt-4 font-bold text-2xl text-gray-600">
+          DEVELOPER / CYBERSECURITY
+        </p>
+
+        
+      </div>
+
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+        <a
+          className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <span className="inline-block rounded-lg bg-gray-50 p-3">
+          <IoLogoJavascript />
+
+          </span>
+
+          <h2 className="mt-2 text-2xl font-bold">JavaScript</h2>
+
+         
+        </a>
+
+        <a
+          className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <span className="inline-block rounded-lg bg-gray-50 p-3">
+          <FaPython />
+
+            
+          </span>
+
+          <h2 className="mt-2 text-2xl font-bold">Python</h2>
+
+         
+        </a>
+
+        <a
+          className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <span className="inline-block rounded-lg bg-gray-50 p-3">
+          <FaBug />
+
+          </span>
+
+          <h2 className="mt-2 text-2xl font-bold">Bug-bounty</h2>
+
+        </a>
+
+        <a
+          className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <span className="inline-block rounded-lg bg-gray-50 p-3">
+          <FaJava />
+
+          </span>
+
+          <h2 className="mt-2 text-2xl font-bold">Java</h2>
+
+        </a>
+
+        <a
+          className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <span className="inline-block rounded-lg bg-gray-50 p-3">
+          <FaReact />
+
+          </span>
+
+          <h2 className="mt-2 text-2xl font-bold">React/Next</h2>
+
+          
+        </a>
+
+        <a
+          className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <span className="inline-block rounded-lg bg-gray-50 p-3">
+          <FaNetworkWired />
+          </span>
+
+          <h2 className="mt-2 text-2xl font-bold">Networking</h2>
+
+          
+        </a>
       </div>
     </div>
+  </div>
+</section>
+    
   );
 };
 
 export default Skills;
+
+
+

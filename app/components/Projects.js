@@ -5,24 +5,25 @@ import Image from 'next/image';
 const projects = [
   {
     id: 1,
-    title: 'Project One',
-    description: 'This is the description for project one.',
+    title: 'CCTV crime detection',
+    description: 'DL model to detect violence activities using videos and webcam',
     imageUrl: '/11.jpeg',
-    githubUrl: 'https://github.com/username/project-one',
+    githubUrl: 'https://github.com/Yasin-13',
   },
   {
     id: 2,
-    title: 'Project Two',
-    description: 'This is the description for project two.',
-    imageUrl: '/11.jpeg',
-    githubUrl: 'https://github.com/username/project-two',
+    title: 'Result Management System',
+    description: 'Result management for colleges using MERN stack',
+    imageUrl: '/Picture1.jpg',
+
+    githubUrl: 'https://github.com/Yasin-13',
   },
   {
     id: 3,
-    title: 'Project Three',
-    description: 'This is the description for project three.',
-    imageUrl: '/11.jpeg',
-    githubUrl: 'https://github.com/username/project-three',
+    title: 'BridgeTheGap',
+    description: 'Ai based learning platform',
+    imageUrl: '/12.png',
+    githubUrl: 'https://github.com/Yasin-13',
   },
 ];
 

@@ -9,7 +9,7 @@ const Contact = () => {
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
-        <p className="max-w-xl font-bold text-3xl text-white text-left ">
+        <p className="max-w-xl font-bold text-3xl text-black text-left ">
           Looking Forward to connect.
           <p1 className='text-pink-600'>
           connect with me on my social handles
