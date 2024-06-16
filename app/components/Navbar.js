@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 right-0 w-full p-4 ">
+    <nav className="sticky top-0 right-0 w-full p-4 ">
       <div className="flex justify-end space-x-6">
         <a
           href="https://www.linkedin.com/in/mohamed-yasin-aaa502260/"

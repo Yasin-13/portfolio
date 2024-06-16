@@ -53,7 +53,7 @@ const Body = () => {
         <div>
           <p className="text-4xl  text-black font-sans font-bold text-center">
             <Typewriter
-              words={["Developer/cyber-security enthusiast"]}
+              words={["Developer/Cyber-security enthusiast"]}
               loop={1} // Set loop to 1 to type the text only once
               cursor
               cursorStyle="_"
