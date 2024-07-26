@@ -40,9 +40,18 @@ const Body = () => {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="h-screen w-screen text-center font-title text-6xl justify-center mt-60 mx-auto">
+      <div className="text-8xl bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent bebas-neue-regular h-screen w-screen text-center justify-center mt-60 mx-auto">
         <Typewriter
-          words={["MOHAMED YASIN"]}
+          words={["MOHAMED"]}
+          loop={1} // Set loop to 1 to type the text only once
+          cursor
+          cursorStyle="_"
+          typeSpeed={70}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
+        <Typewriter
+          words={["YASIN"]}
           loop={1} // Set loop to 1 to type the text only once
           cursor
           cursorStyle="_"
@@ -51,7 +60,7 @@ const Body = () => {
           delaySpeed={1000}
         />
         <div>
-          <p className="text-4xl  text-black font-sans font-bold text-center">
+          <p className="text-4xl bg-gradient-to-r from-indigo-700 to-blue-900 bg-clip-text text-transparent  text-black font-sans font-bold text-center">
             <Typewriter
               words={["Developer/Cyber-security enthusiast"]}
               loop={1} // Set loop to 1 to type the text only once
@@ -63,22 +72,22 @@ const Body = () => {
             />
           </p>
         </div>
-        <div className="text-center mt-5 ">
+        <div className="text-center mt-5 gap-2">
           <button
             onClick={scrollToProjects}
-            className="text-black  hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-black transition duration-300"
+            className="text-black   hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-gradient-to-r from-blue-800 to-indigo-900 duration-300"
           >
             Projects
           </button>
           <button
             onClick={scrollToProjects1}
-            className="text-black hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-black transition duration-300"
+            className="text-black hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-gradient-to-r from-blue-800 to-indigo-900 duration-300"
           >
             Skills
           </button>
           <button
             onClick={scrollToProjects2}
-            className="text-black hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-black transition duration-300"
+            className="text-black hover:text-white px-6 font-sans font-bold py-2 rounded-md text-lg hover:bg-gradient-to-r from-blue-800 to-indigo-900 transition duration-300"
           >
             Contact
           </button>

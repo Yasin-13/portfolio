@@ -9,7 +9,7 @@ const Contact = () => {
           href="/y.pdf" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="text-black hover:text-white px-6 font-sans font-bold py-2 rounded-md text-2xl hover:bg-black transition duration-300"
+          className="bg-gradient-to-r from-blue-700 to-indigo-900 bg-clip-text text-transparent text-black hover:text-black px-6 font-sans font-bold py-2 rounded-md text-2xl hover:bg-black transition duration-300"
           >
           Resume
         </a>
@@ -19,7 +19,7 @@ const Contact = () => {
           <p className="text-gray-700">Email: yasin318813@gmail.com</p>
         </div>
       </div>
-      <p className="text-2xl font-bold ">Connect with me on social media:</p>
+      <p className="text-2xl bg-gradient-to-r from-blue-700 to-indigo-900 bg-clip-text text-transparent font-bold ">Connect with me on social media:</p>
       
     </header>
   </div>

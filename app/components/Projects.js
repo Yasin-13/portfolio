@@ -30,7 +30,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">My Projects</h1>
+      <h1 className="text-4xl bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent font-bold mb-8 text-center">My Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {projects.map((project) => (
           <div

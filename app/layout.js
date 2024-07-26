@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Honk } from "next/font/google";
 
-const honk = Honk({ subsets: ["latin"] });
+const honk = ({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "YASIN inc",
