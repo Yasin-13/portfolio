@@ -40,7 +40,7 @@ const Body = () => {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="md:text-xl text-7xl bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent bebas-neue-regular h-screen w-screen text-center justify-center mt-60 mx-auto">
+      <div className=" text-7xl bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent bebas-neue-regular h-screen w-screen text-center justify-center mt-60 mx-auto">
         <Typewriter
           words={["MOHAMED YASIN"]}
           loop={1} // Set loop to 1 to type the text only once
