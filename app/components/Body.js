@@ -42,7 +42,7 @@ const Body = () => {
     <div className="overflow-x-hidden">
       <div className=" text-7xl bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent bebas-neue-regular h-screen w-screen text-center justify-center mt-60 mx-auto">
         <Typewriter
-          words={["MOHAMED YASIN"]}
+          words={["MOHAMED"]}
           loop={1} // Set loop to 1 to type the text only once
           cursor
           cursorStyle="_"
@@ -50,6 +50,16 @@ const Body = () => {
           deleteSpeed={50}
           delaySpeed={1000}
         />
+        <Typewriter 
+          words={["YASIN"]}
+          loop={1} // Set loop to 1 to type the text only once
+          cursor
+          cursorStyle="_"
+          typeSpeed={70}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
+        
         
         <div>
           <p className="text-3xl bg-gradient-to-r from-indigo-700 to-blue-900 bg-clip-text text-transparent  text-black font-sans font-bold text-center">
