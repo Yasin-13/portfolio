@@ -20,11 +20,11 @@ export default function RootLayout({ children }) {
               _paq.push(['trackPageView']);
               _paq.push(['enableLinkTracking']);
               (function() {
-                var u="https://cybersec13.matomo.cloud/";
+                var u="https://yasin21netlifyapp.matomo.cloud/";
                 _paq.push(['setTrackerUrl', u+'matomo.php']);
                 _paq.push(['setSiteId', '1']);
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.async=true; g.src='https://cdn.matomo.cloud/cybersec13.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+                g.async=true; g.src='https://cdn.matomo.cloud/yasin21netlifyapp.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
               })();
             `,
           }}
